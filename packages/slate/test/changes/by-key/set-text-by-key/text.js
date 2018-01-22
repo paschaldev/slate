@@ -3,14 +3,14 @@
 import h from '../../../helpers/h'
 
 export default function (change) {
-  change.insertTextByKey('a', 1, 'x')
+  change.setTextByKey('1', 'wor')
 }
 
 export const input = (
   <value>
     <document>
       <paragraph>
-        <text key="a">w<anchor />or<focus />d</text>
+        <text key="1">word</text>
       </paragraph>
     </document>
   </value>
@@ -20,7 +20,7 @@ export const output = (
   <value>
     <document>
       <paragraph>
-        wx<anchor />or<focus />d
+        <text key="1">wor</text>
       </paragraph>
     </document>
   </value>
