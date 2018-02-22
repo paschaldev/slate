@@ -19,3 +19,4 @@ packages/*/yarn.lock
 
 # OS files.
 .DS_Store
+config.bat
